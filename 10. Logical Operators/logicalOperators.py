@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # There are three main logical operators in Python: and, or, and not.
 
 # and = returns True if both statements are true as well as False if both statements are false. But if one of the statement is false then it returns False.

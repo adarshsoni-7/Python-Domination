@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # If we try to understand by taking the real analogy, conditional statement is nothing but if the given condition for e.g 2 == 2 & so on.... is true then perform it's addition or else perform it's multiplication. Let's try to understand by some instances:
 
 

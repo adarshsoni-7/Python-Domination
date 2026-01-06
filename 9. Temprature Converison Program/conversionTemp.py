@@ -1,7 +1,14 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # In this program, we will convert temperature between Celsius and Kelvin based on user input.
 # Before we dive deep further, let's understand the conversion formulas:
 # 1 °C = 273.15 K
-# 1 K = -272.15 °C
+# 1 K = -273.15 °C
 
 # Celsius to Kelvin: K = C + 273.15
 # Kelvin to Celsius: C = K - 273.15

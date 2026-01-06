@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # This is a simple calculator program that performs basic arithmetic operations.
 
 operand = input("Enter the operation you want to perform (+, -, *, /): ")
@@ -9,20 +16,26 @@ if operand == '+':
     result = num1 + num2
     print(f"The addition of both numbers is {result}")
 elif operand == '-':
-    result = num1 - num2
+    if num1 < num2:
+        num1, num2 = num2, num1  # Swap to avoid negative result
+
+    result = (num1 - num2)
     print(f"The subtraction of both numbers is {result}")
 
 elif operand == '*':
-    result = num1 * num2
+    if num1 == 0 or num2 == 0:
+        print("Error: Multiplication by zero is not allowed.")
+    else:
+        result = num1 * num2
     print(f"The multiplication of both numbers is {result}")
 elif operand == '/':
-    result = num1 / num2
+    if num2 == 0:
+        print("Error: Division by zero is not allowed.")
+    else:
+        result = num1 / num2
     print(f"The division of both numbers is {result}")
 else:
     print("Invalid operation! Please enter one of +, -, *, /.")
-    
-    
-    
 
 
 # ===============================      Task to do    ===============================

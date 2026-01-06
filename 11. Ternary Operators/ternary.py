@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # Ternary Operators in Python are just simple one-liner conditional statements. They are used to evaluate something based on a condition being true or false.
 
 

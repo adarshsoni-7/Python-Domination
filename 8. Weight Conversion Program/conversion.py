@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # In this program, we will convert weight between kilograms and pounds based on user input.
 
 weight = float(input("Enter weight: "))

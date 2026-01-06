@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # Simply, we here gonna use all the operators which we used to do in our nursery or even do now-a-days daily. In Python, let's have some mathematical calculations.
 
 num1 = 13

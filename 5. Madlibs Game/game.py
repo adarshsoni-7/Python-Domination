@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # In this game, we'll create a short story about someone, something, etc. in which we gonna use all the concepts we learned and have amateur knowledge about so far.
 
 

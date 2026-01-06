@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # Important Note: We don't cover the data types section yet, but as of now, think it as your Mathematical numbers which are in int, decimal(float in Python). In alphabets, 'a-z' considered as characters.
 
 # In every language, Type-Casting is simply defined as the conversion of the data type into another one like as int to float, float to string, string to int. Let's understand by some examples.

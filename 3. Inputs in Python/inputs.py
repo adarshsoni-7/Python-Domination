@@ -1,3 +1,10 @@
+"""
+Author: Adarsh Soni
+Email: soniadarsh487@gmail.com
+LinkedIn: https://www.linkedin.com/in/adarsh-soni-881b4139a/
+Motto: Stay disciplined, practice daily, and keep improving.
+"""
+
 # In Python, "taking inputs" is simply defined as the input which we request to a user to give and then based upon what that user want, we'll perform the operations such as: User give 2 and 3 and say do addition of this numbers. 
 
 # Let's understand by some examples:
