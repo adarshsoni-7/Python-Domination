@@ -47,3 +47,11 @@ print(f"The big amount is {big_amount:,.2f}")  # Output: 323,333.26 (with commas
 
 
 print("=================================================================")
+
+
+
+
+
+#                        =========================================== Important Concepts to learn =================================== 
+
+# f string = formatted string literals, introduced in Python 3.6, allow you to embed expressions inside string literals, using curly braces {} as we used recently in the sliccode.
