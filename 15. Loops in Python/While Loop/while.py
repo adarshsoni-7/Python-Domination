@@ -52,9 +52,14 @@ print("Countdown finished!")
 # Here, we start with taking user input a number to start the countdown. The while loop continues as long as num is greater than 0, printing the current value of num and  decrementing it by 1 in each iteration. When num reaches 0, the loop ends and we print "Countdown finished!"
 
 
-#                                                   =============================== Explanation ===============================
+#                                                   =============================== Task to do ===============================
 
 # 1. Print the numbers from 1 to 10 using a while loop.
 # 2. Print the even numbers between 1 and 10 using a while loop. (Hint: Use the modulus operator % to check for even numbers)
 # 3. Print the numbers from 1 to 50 by jumping 5 numbers at each iteration using a while loop. (Hint: Use the += operator)
 # 4. Print the multiplication table of a 5 or you can  take your desired one using a while loop. (Hint: Multiply the number by the iteration count)
+
+
+n = 5
+while(n > 1):
+    print("Adarsh Soni")
