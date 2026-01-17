@@ -32,11 +32,14 @@
 # print(fruits) # Output: ['peach', 'banana', 'grapes', 'mango', 'pineapple']
 
 
+# fruits.pop() # delete the element from the end. Remember (from end) is important
+# print(fruits) # Output: ['peach', 'banana', 'grapes', 'mango']
+
+
 
 vegetables = ["Guard", "Reddish", "Capsicum", "Onion", "Coriander", "Beet-root"] 
 # vegetables.reverse() # Output is basically in a reverse fashion of the index in which the values placed in.
 # print(vegetables)
-
 # vegetables.sort() # Output: ['Beet-root', 'Capsicum', 'Coriander', 'Guard', 'Onion', 'Reddish'] based upon the alphabet position.
 # print(vegetables)
 
@@ -50,6 +53,12 @@ vegetables = ["Guard", "Reddish", "Capsicum", "Onion", "Coriander", "Beet-root"]
 # vegetables.clear() # Output: [] 
 
 # print(vegetables.index("Onion")) # Output: The index of given element which is 3
+
+
+
+# print("Reddish" in vegetables) # gives a Boolean result True or False. True this time since Reddish is present in the lists at 1st index.
+
+# vegetables.pop() # delete the elements from the end
 
 
 # print(vegetables.count("Reddish")) # Output: number times of that element is present in the list which is as of now 1.  
