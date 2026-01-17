@@ -6,7 +6,7 @@
 
 
 fruits = {"apple", "orange", "banana", "coconut"}
-print(fruits) # Here output can be seen in any random way becasue we know that set is unordered in Python.
+print(fruits[0]) # Here output can be seen in any random way becasue we know that set is unordered in Python.
  
 
  
