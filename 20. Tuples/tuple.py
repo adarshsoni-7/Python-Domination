@@ -1,5 +1,5 @@
 # In Python, tuples are same as sets but there are some key differences between them also.
-# They are surrounded by {}.
+# They are surrounded by ().
 # They are ordered.
 # But we cannot modify, add and delete the values in Tuples.
 # We can add duplicates.

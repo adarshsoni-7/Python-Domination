@@ -122,46 +122,46 @@ vegetables = ["Guard", "Reddish", "Capsicum", "Onion", "Coriander", "Beet-root"]
 # Before having a look at the solution, trying yourself not only build your confidence but also you have that capability to understand how code works.  
 
 
-# student = input("Enter the student name: ")
-# marks = int(input("Enter the student's marks: "))
+student = input("Enter the student name: ")
+marks = int(input("Enter the student's marks: "))
 
 
-# if marks <= 15:
-#     fail_list = []
-#     fail_list.append(student)
-#     print("You are fail.")
-#     print(fail_list)
+if marks <= 15:
+    fail_list = []
+    fail_list.append(student)
+    print("You are fail.")
+    print(fail_list)
     
-# elif marks <= 33:
-#     pass_list = []
-#     pass_list.append(student)
-#     print("You are pass.")   
-#     print(pass_list)
+elif marks <= 33:
+    pass_list = []
+    pass_list.append(student)
+    print("You are pass.")   
+    print(pass_list)
     
-# elif marks <= 50:
-#     average_list = []
-#     average_list.append(student)
-#     print("You are average.") 
-#     print(average_list)
+elif marks <= 50:
+    average_list = []
+    average_list.append(student)
+    print("You are average.") 
+    print(average_list)
     
     
-# elif marks <= 70:
-#     good_list = []
-#     good_list.append(student)
-#     print("You are good.") 
-#     print(good_list)
+elif marks <= 70:
+    good_list = []
+    good_list.append(student)
+    print("You are good.") 
+    print(good_list)
     
-# elif marks <= 85:
-#     excellent_list = []
-#     excellent_list.append(student) 
-#     print("You are excellent.")
-#     print(excellent_list)
+elif marks <= 85:
+    excellent_list = []
+    excellent_list.append(student) 
+    print("You are excellent.")
+    print(excellent_list)
     
-# else:
-#     outstanding_list = []
-#     outstanding_list.append(student)
-#     print("You are outstanding.")
-#     print(outstanding_list)
+else:
+    outstanding_list = []
+    outstanding_list.append(student)
+    print("You are outstanding.")
+    print(outstanding_list)
 
 
 
