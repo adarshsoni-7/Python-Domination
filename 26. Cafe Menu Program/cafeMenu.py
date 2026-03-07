@@ -20,11 +20,12 @@ for name, price in cafe_menu.items():
         cart.append(name)
         total_price += price
     elif wants.lower() == "q":
-        break;     
+        break  
         
 print("===== This is your cart ======")
 
-print("No item" if len(cart) == 0 else None)
+if len(cart) == 0:
+    print("No item")
 
 for items in cart:
     print(items)
@@ -34,7 +35,7 @@ if len(cart) > 0:
     print(f"You have to pay {total_price}/- only.")
         
 else:
-    print("You did not have some something.")
+    print("You did not order anything.")
     
     
 #                               ===================== Explaination ================================

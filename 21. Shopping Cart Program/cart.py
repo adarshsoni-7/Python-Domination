@@ -43,7 +43,7 @@ print("---------------  END OF SHOPPING LIST  ---------------")
 
 
 
-#                                                               ================  Task to do =====================
+#                                                   ================  Task to do =====================
 
 
 # 1. Check the code by converting only price input to int and check why not error shows but why code does unexpected behaviour
