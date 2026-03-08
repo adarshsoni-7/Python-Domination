@@ -52,4 +52,4 @@ while isRunning:
 
 #                                             ==================== Important Message ====================
 
-# See, from here the concepts gradually become more complex, so I suggest you to try to understand the code and then try to implement the above tasks on your own. If you get stuck, feel free to use my demo prompts! For Example: you can see there, instead of writing the logic for wins and losses in many if-else statements, we merge them into one statement using "or", "and" operators.
+# See, from here the concepts gradually become more complex, so I suggest you to try to understand the code and then try to implement the above tasks on your own. If you get stuck, feel free to use my debugging prompts! For Example: you can see there, instead of writing the logic for wins and losses in many if-else block, we merge them into one statement using "or", "and" operators.
