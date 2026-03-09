@@ -16,8 +16,8 @@ print(add_res) # we can also say : print(num1 + num_2) directly but we used this
 
 #constants
 
-const d = 13
-print(d) # this will show syntax error because in the Python, there is no constant. By converting the variable into the uppercase it will be treated as constant.
+# const d = 13
+# print(d)  this will show syntax error because in the Python, there is no constant. By converting the variable into the uppercase it will be treated as constant.
 
-D = 13
-print(D)
+# D = 13
+# print(D)
