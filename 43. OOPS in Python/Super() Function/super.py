@@ -16,14 +16,9 @@ class Child(Parent):
 obj = Child()  # Output: This is the parent class constructor
 
 
+ # The Shape class is a parent class that defines common attributes and methods for different shapes. It has an __init__ method that initializes the color and is_filled attributes, and a describe method that provides a description of the shape based on its color and whether it is filled or not.
 
-
-
-
-
-
-
-class Shape:
+class Shape: 
     def __init__(self, color, is_filled):
         self.color = color
         self.is_filled = is_filled
@@ -32,6 +27,8 @@ class Shape:
     def describe(self):
         print(f"It is {self.color} and {'filled' if self.is_filled else 'not filled'}.")
 
+
+# The Circle, Square, and Triangle classes are child classes that inherit from the Shape class. Each of these classes has its own __init__ method that calls the __init__ method of the Shape class using super() to initialize the color and is_filled attributes, and also initializes their specific attributes (radius for Circle, side_length for Square and Triangle). This allows each shape to have its own unique properties while still sharing common attributes and methods from the Shape class.
 
 class Circle(Shape):
     def __init__(self, color, is_filled, radius):
