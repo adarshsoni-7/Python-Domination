@@ -136,32 +136,32 @@ elif marks <= 33:
     pass_list = []
     pass_list.append(student)
     print("You are pass.")   
-    print(pass_list)
+    print(pass_list[0])
     
 elif marks <= 50:
     average_list = []
     average_list.append(student)
     print("You are average.") 
-    print(average_list)
+    print(average_list[0])
     
     
 elif marks <= 70:
     good_list = []
     good_list.append(student)
     print("You are good.") 
-    print(good_list)
+    print(good_list[0])
     
 elif marks <= 85:
     excellent_list = []
     excellent_list.append(student) 
     print("You are excellent.")
-    print(excellent_list)
+    print(excellent_list[0])
     
 else:
     outstanding_list = []
     outstanding_list.append(student)
     print("You are outstanding.")
-    print(outstanding_list)
+    print(outstanding_list[0])
 
 
 
