@@ -40,13 +40,14 @@
 
 
 # *args => Tuple    Input style => positional usually what we use very first while passing the arguments to the function. Example func(1, 2, 3)
-# **kwargs => Dictionary  iInput style => Keywords. Example func(a = 1, b = 2)
+# **kwargs => Dictionary  Input style => Keywords. Example func(a = 1, b = 2)
 
 
 # Le's use both in one place
 
-def demo(*args, **kwargs):
-    print("Args", args, "<=== see it's in a form of tuple")
-    print("Kwargs", kwargs, "<=== see it's in a form of dictionary")
-    
-demo(1, 2, 3, name = "Adarsh", role = "Engineer")
+def describe_person(name, *hobbies, **details):
+    print("Name:", name)
+    print("Hobbies:", hobbies)
+    print("Details:", details)
+
+describe_person("Alex", "coding", "gaming", age=21, city="Delhi")

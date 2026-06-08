@@ -36,6 +36,43 @@ finally:
     print("Done")
 
 
+
+def safe_divide(x, y):
+    try:
+        result = x / y
+    except ZeroDivisionError:
+        print("Cannot divide by zero.")
+        return None
+    except TypeError:
+        print("Both arguments must be numbers.")
+        return None
+    else:
+        print("Division successful.")
+        return result
+    finally:
+        print("safe_divide finished.")
+
+safe_divide(10, 2)  # Division successful. safe_divide finished. 5.0
+safe_divide(10, 0)  # Cannot divide by zero. safe_divide finished. None
+safe_divide(10, "a")  # Both arguments must be numbers. safe_divide finished. None  
+
+# else in try/except/else/finally
+# Your idea: “if everything in try/except runs with no error, then else runs.”
+# Refined version:
+
+# The else block runs only if:
+
+# The try block finished without raising any exception, and
+
+# No except block was triggered.
+
+# If any exception from the try is caught by an except, the else block is skipped.
+
+# So you can think:
+
+# “else = code that should run only when the try succeeded without errors.”
+
+
 # We have some common types of Errors in Python :
 
 # ZeroDivisionError = Occurs when a number is divided by zero. try 5 / 0
